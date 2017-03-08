@@ -1,2 +1,3 @@
 import 'babel-polyfill'
-console.log(__DEV__)
+import Game from './game'
+Game.state.start('boot')
