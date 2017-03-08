@@ -1,5 +1,5 @@
 //1.设计稿的大小 & HTML 大小
-let DesignSize = {width:750,height:1080,}
+let DesignSize = {width:640,height:1136,}
 let DomSize = {
   width:window.innerWidth,
   height:window.innerHeight,

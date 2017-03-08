@@ -4,6 +4,7 @@ import dom from '../config/document.js'
 
 let boot = function() {
   this.init = () => {
+    console.log("场景1:启动")
     this.input.maxPointers = 1
     this.stage.disableVisibilityChange = true
     this.scale.pageAlignHorizontally = true
@@ -15,8 +16,9 @@ let boot = function() {
   }
   this.create = () => {
     dom.main.style.display = 'block';
-    this.stage.backgroundColor = ''
-    // this.state.start('preload');
+    this.stage.backgroundColor = '#fffff'
+    this.stage.backgroundColor = '#faf3e3';
+    this.state.start('preload');
   }
 }
 
